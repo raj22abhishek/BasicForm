@@ -31,6 +31,7 @@ export class HomeComponent implements OnInit {
       gendertitle: ['', Validators.required],
       destinationtitle: ['', Validators.required],
       country: ['', Validators.required],
+      accommodation: ['', Validators.required],
     });
   }
 
@@ -57,7 +58,7 @@ export class HomeComponent implements OnInit {
     setTimeout(() => {
       alert("Form Submitted Successfully")
       this.ourForm?.reset()
-    },2000)
+    },200)
     // alert("Form Submitted Successfully")
     // this.ourForm.reset()
     

@@ -150,7 +150,7 @@
                                 Number of Travel Companions
                             </span>
                         </div>
-                        <select id="companion" name="companion" formControlName="companion" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
+                        <select id="companion" name="companion" formControlName="companion" class="custom-select form-control bg-white border-left-0 border-md">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -165,7 +165,7 @@
                                 Trip Duration in Days
                             </span>
                         </div>
-                        <select id="duration" name="durationindays" formControlName="durationindays" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
+                        <select id="duration" name="durationindays" formControlName="durationindays" class="custom-select form-control bg-white border-left-0 border-md">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -173,6 +173,21 @@
                             <option value="5">5</option>
                             <option value="6">6</option>
                             <option value="7">7</option>
+                        </select>
+                    </div>
+                    <!-- Accommodation Preferences -->
+                    <div class="input-group col-lg-6 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                Accommodation Preferences
+                            </span>
+                        </div>
+                        <select id="accommodation" name="accommodation" formControlName="accommodation" class="custom-select form-control bg-white border-left-0 border-md">
+                            <option value="Luxury Hotels and Resorts">Luxury Hotels and Resorts</option>
+                            <option value="Boutique Accommodations">Boutique Accommodations</option>
+                            <option value="Homestays or Local Lodgings">Homestays or Local Lodgings</option>
+                            <option value="Eco-Friendly Stays">Eco-Friendly Stays</option>
+                            <option value="Other">Other - Comment down</option>
                         </select>
                     </div>
 
