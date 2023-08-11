@@ -23,7 +23,7 @@ export class AdminComponent {
           'Content-Type': 'application/json'
       })
   };
-    this.http.get<any>('http://localhost:3000/employees',httpOptions).subscribe(res => {
+    this.http.get<any>('https://project-data-ybsg.onrender.com/employees',httpOptions).subscribe(res => {
       this.students  = res;
       console.log('---', res)
       

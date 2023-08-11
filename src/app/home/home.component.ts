@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
           'Content-Type': 'application/json'
       })
   };
-    this.http.post<any>('http://localhost:3000/employees',value,httpOptions).subscribe(res => {
+    this.http.post<any>('https://project-data-ybsg.onrender.com/employees',value,httpOptions).subscribe(res => {
       console.log('---', res)
     });
     // data.push(value);
